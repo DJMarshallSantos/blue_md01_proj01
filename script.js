@@ -66,19 +66,13 @@ function result(turns) {
   } else if (turns == 1|| turns ==2) {
     console.log("Você falha, mas ainda consegue fugir da situação!");
   } else if (turns == 3) {
-    console.log(
-      "Você chega perto de conseguir alcançar seu objetivo, mas acaba falhando por pouco!"
-    );
+    console.log("Você chega perto de conseguir alcançar seu objetivo, mas acaba falhando por pouco!");
   } else if (turns == 4) {
-    console.log(
-      "Depois de muito esforço você conquista seu objetivo, embora não de maneira perfeita!"
-    );
+    console.log("Depois de muito esforço você conquista seu objetivo, embora não de maneira perfeita!");
   } else if (turns == 5) {
-    console.log(
-      "Você triunfa de maneira inquestionável e seus feitos serão lembrados por muitas gerações!"
-    );
+    console.log("Você triunfa de maneira inquestionável e seus feitos serão lembrados por muitas gerações!");
   }else {
-	  console.log("\nVocê se tornou uma LENDA e seu nome será mencionado em inúmeras canções!");
+    console.log("\nVocê se tornou uma LENDA e seu nome será mencionado em inúmeras canções!");
   }
   let gap = setInterval(() => console.log(""), 1500); 
   clearInterval(gap);
